@@ -1,18 +1,32 @@
+[History and Motivation](01-history-and-motivation/README.md)
+| [Technology Overview](02-technology-overview/README.md)
+| [Installation and Set Up](03-installation-and-set-up/README.md)
+| [Using 3rd Party Containers](04-using-3rd-party-containers/README.md)
+| [Example Web Application](05-example-web-application/README.md)
+| [Building Container Images](06-building-container-images/README.md)
+| [Container Registries](07-container-registries/README.md)
+| [Running Containers](08-running-containers/README.md)
+| [Container Security](09-container-security/README.md)
+| [Interacting with Docker Objects](10-interacting-with-docker-objects/README.md)
+| [Development Workflows](11-development-workflow/README.md)
+| [Deploying Containers](12-deploying-containers/README.md)
+
+---
+
+
 # DevOps Directive Docker Course
 
-**NOTE:** The course video will be released to YouTube in Spring 2023!
+This is the companion repo to: [Complete Docker Course - From BEGINNER to PRO! (Learn Containers)](https://youtu.be/RqTEHSBrYFw)
 
-This is the companion repo to: `<INSERT VIDEO LINK>`
 
-`<INSERT THUMBNAIL IMAGE>`
+[![](./readme-assets/thumbnail.jpg)](https://youtu.be/RqTEHSBrYFw)
 
 ## Sponsor
+[![](./readme-assets/shipyard-logo.png)](https://shipyard.build/)
 
-[![](./readme-assets/shipyard-logo.png)](https://shipyard.build)
+Thank you to [Shipyard](https://shipyard.build/) for sponsoring this course! It is because of their support that I am able to provide it to the community free of charge!
 
-Thank you to Shipyard for sponsoring this course. It is because of their support that I am able to provide it to the community free of charge!
-
-Shipyard is the easiest way to generate on demand ephemeral environments (aka a new environment for every pull request). Check them out at https://shipyard.build/!
+Shipyard is the easiest way to generate on demand ephemeral environments (aka a new environment for every pull request). Sign up today at https://shipyard.social/DevOpsDirectivePromo! The first 300 people to use the promo code "DEVOPSDIRECTIVE" will receive an additional 30 days free on either their startup or business tier plans!
 
 ## [01 - History and Motivation](01-history-and-motivation/README.md)
 
@@ -32,7 +46,7 @@ Before we build our own container images, we can familiarize ourselves with the 
 
 ## [05 - Example Web Application](05-example-web-application/README.md)
 
-Learning about containerization is interesting, but without a practical example it isn't very useful. In this section we create a 3 tier web application with a React front end client, two apis (node.js + golang), and a database. The application is as simple as possible while still providing a realistic microservice system to containerize. 
+Learning about containerization is interesting, but without a practical example it isn't very useful. In this section we create a 3 tier web application with a React front end client, two apis (node.js + golang), and a database. The application is as simple as possible while still providing a realistic microservice system to containerize.
 
 ## [06 - Building Container Images](06-building-container-images/README.md)
 
